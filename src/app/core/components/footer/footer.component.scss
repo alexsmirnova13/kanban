@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+.footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $green;
+    &__logo{
+        width: 150px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    &__link{
+        color: $antiquewhite;
+        text-decoration: none;
+    }
+}

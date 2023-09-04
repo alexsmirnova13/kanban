@@ -1,0 +1,98 @@
+{
+  "header": {
+    "signIn-btn": "Sign In",
+    "signUp-btn": "Sign Up",
+    "edit-profile": "Edit profile"
+  },
+  "signIn-form": {
+    "title": "Log In",
+    "login": "Login",
+    "login-errors": {
+      "empty-login": "Please enter a login",
+      "short-login": "The login must contain at least 3 symbols"
+    },
+    "password": "Password",
+    "password-errors": {
+      "empty-password": "Please enter a password",
+      "not-strong": "Your password isn't strong enough:",
+      "8-chars": "has to contain at least 8 characters",
+      "mixture": "has to be a mixture of both uppercase and lowercase letters",
+      "special-chars": "has to contain at least one special character, e.g., ! @ # ? $",
+      "nums": "has to contain at least one number"
+    },
+    "registration-btn": "Registration",
+    "login-btn": "Sign In"
+  },
+  "signUp-form": {
+    "title": "Sign Up",
+    "name": "Name",
+    "no-name-error": "Please enter your name",
+    "repeat-password": "Repeat Password",
+    "password-errors": {
+      "repeat-password": "Please repeat the password",
+      "no-match":"Passwords do not match"
+    },
+    "signUp-btn": "Sign Up"
+  },
+  "userEdit-form": {
+    "title": "Edit User",
+    "new-pw": "New Password",
+    "repeat-new-pw": "Repeat New Password",
+    "current-pw": "Current Password",
+    "password-errors": {
+      "empty-password": "Please enter the current password"
+    },
+    "save-btn": "Save Changes"
+  },
+  "welcome": {
+    "aboutTitle": "is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects.",
+    "button": "Try it",
+    "rssTitle": "Online Angular Course from the community ",
+    "rssAbout": {
+      "1": "RS School is free-of-charge and community-based education program conducted by The Rolling Scopes developer community since 2013.",
+      "2": "Required before the start:",
+      "3": "understanding the concept of "
+      },
+    "rssBenefits": {
+      "1": "Free-of-charge learning",
+      "2": "Open to everyone",
+      "3": "Certificate"
+    },
+    "team": {
+      "1": "O",
+      "2": "U",
+      "3": "R",
+      "4": " ",
+      "5": " ",
+      "6": "T",
+      "7": "E",
+      "8": "A",
+      "9": "M"
+    },
+    "memberDescription": {
+      "d": "Team lead, front-end web developer",
+      "a": "Team member, front-end web developer",
+      "i": "Team member, front-end web developer"
+    }
+  },
+  "footer": {
+    "names": {
+      "d": "Dmitry Khoroshkin",
+      "a": "Aleksandra Smirnova",
+      "i": "Iryna Kolhanova"
+    }
+  },
+  "board": {
+    "title": "BOARDS",
+    "label": "Enter board name",
+    "description": "Description",
+    "createBoard": "Create new board",
+    "boardErrors": {
+      "no-name-error": "Board name can't be empty"
+    },
+    "btn": {
+      "create": "Create",
+      "cancel": "Cancel"
+    }
+  }
+}

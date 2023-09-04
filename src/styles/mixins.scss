@@ -1,0 +1,17 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin margin-center {
+  margin: 2rem 10%;
+}
+
+@mixin flex-full-screen {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

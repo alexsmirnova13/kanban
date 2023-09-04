@@ -1,0 +1,23 @@
+@import "src/styles/mixins";
+
+mat-card {
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+
+  ::ng-deep {
+    .mat-form-field-underline,
+    .mat-form-field-subscript-wrapper {
+      position: static;
+    }
+  }
+}
+
+.mat-form-field {
+  display: block;
+}
+
+.login-btn-wrapper {
+  @include flex-center;
+  gap: 20px;
+}
